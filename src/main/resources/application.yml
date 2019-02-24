@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  context-path: /dubbo-consumer
+
+spring:
+  application:
+    name: dubbo-spring-boot-starter
+# dubbo config
+#spring:
+#  dubbo:
+#    appname: springboot-dubbo-consumer
+#    registry: zookeeper://dev.tss.com:2181
